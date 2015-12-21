@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.work7" >
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="sPxWi0vs3KG3raUqbdQyWgHK"/>
+        <activity
+            android:name=".GPSActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <user-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <user-permission android:name="android.permission.INTERNET"/>
+    <user-permission android:name="com.android.launchar.permission.READ_SETTINGS" />
+    <user-permission android:name="android.permission.WAKE_LOCK"/>
+    <user-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <user-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <user-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <user-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <user-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <user-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+</manifest>
